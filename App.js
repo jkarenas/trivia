@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Welcome from '../NombreDeTuProyecto/src/Components/Welcome';
-import Questions from '../NombreDeTuProyecto/src/Components/Questions';
-import Results from '../NombreDeTuProyecto/src/Components/Results';
+import Welcome from './src/Components/Welcome';
+import Questions from './src/Components/Questions';
+import Results from './src/Components/Results';
 
 const Stack = createStackNavigator();
 
